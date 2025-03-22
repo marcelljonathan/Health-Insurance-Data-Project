@@ -26,9 +26,14 @@ It also builds **predictive models** to estimate policyholder charges using **ma
 2. **XGBoost Regressor** – Improves accuracy using gradient boosting
 
 ## 🚀 How to Run the Project
-### 1️⃣ Install Dependencies
+### 1️⃣ Install Several Libraries 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost tk
+1. pandas
+2. numpy
+3. matplotlib
+4. seaborn
+5. scikit-learn (known as sklearn)
+6. xgboost
 ```
 
 ### 2️⃣ Run the Analysis & Model Training
@@ -36,35 +41,21 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost tk
 python insurance_analysis.py
 ```
 
-### 3️⃣ Launch the Prediction App (GUI)
-```bash
-python insurance_gui.py
-```
-
 ## 🎯 Results & Model Performance
 | Model | R² Score | Mean Absolute Error |
 |--------|---------|----------------------|
 | Linear Regression | ~0.75 | High |
-| Random Forest | ~0.85 | Lower |
 | XGBoost | **Best (~0.88)** | **Lowest** |
 
-## 📌 Features of the GUI Application
-✔ User inputs **age, sex, and smoker status**
-✔ Model **predicts insurance charges** in real-time
-✔ Uses **Tkinter** for a simple and interactive interface
 
 ## 📎 Repository Contents
-- **`insurance_analysis.py`** → Data analysis, visualization, model training
-- **`insurance_gui.py`** → Interactive prediction app
+- **`insurance_analysis.py`** → Data analysis, visualization, model training, model prediction
 - **`README.md`** → Documentation (this file)
+- **`insurance.csv`** → Raw data
 
 ## 🏆 Next Steps
 - Add more **features** (e.g., income, medical history)
-- Implement **hyperparameter tuning** for better predictions
-- Deploy as a **web app** using Flask or Streamlit
-
-## 📬 Contact
-📧 **Your Email** | 🔗 [Your LinkedIn](#) | 🖥️ [Your GitHub](#)
+- Create a bigger dataset using the best model possible
 
 ---
 🌟 **If you found this project helpful, give it a ⭐ on GitHub!** 🚀
