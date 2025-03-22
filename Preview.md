@@ -1,9 +1,9 @@
 # Health-Insurance-Data-Project
 
-# 📊 Health Insurance Pricing & Prediction
+# 📊 Health Insurance Data Analysis & Prediction
 
 ## 🔍 Project Overview
-This project analyzes **health insurance claims data** to understand the key factors affecting insurance charges. It also builds **predictive models** to estimate policyholder charges using **machine learning algorithms**. Additionally, an interactive **GUI application** is implemented to allow users to input their details and get an estimated insurance charge.
+This project analyzes **health insurance claims data** to understand the key factors affecting insurance charges. It also builds **predictive models** to estimate policyholder charges using **machine learning algorithms**.
 
 ## 📂 Dataset Description
 - The dataset includes information about policyholders such as:
