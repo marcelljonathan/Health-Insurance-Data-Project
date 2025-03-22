@@ -3,7 +3,7 @@
 # 📊 Health Insurance Data Analysis & Prediction
 
 ## 🔍 Project Overview
-This project analyzes **health insurance claims data** to understand the key factors affecting insurance charges. It also builds **predictive models** to estimate policyholder charges using **machine learning algorithms**.
+This project analyzes **health insurance claims data** to understand the key factors affecting insurance charges. This data consist of several information such as It also builds **predictive models** to estimate policyholder charges using **machine learning algorithms**.
 
 ## 📂 Dataset Description
 - The dataset includes information about policyholders such as:
